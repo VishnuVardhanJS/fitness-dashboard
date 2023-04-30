@@ -1,0 +1,18 @@
+.home-card-container{
+    width: 350px;
+    height: 250px;
+    background-color: #1C2438;
+    color: #282d3f;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    border-radius: 1rem;
+    /* cursor: pointer; */
+    border: 0.1px solid rgb(248, 239, 239);
+    transition:0.2s;
+    padding: 10px;
+    margin-bottom: 20px;
+
+}

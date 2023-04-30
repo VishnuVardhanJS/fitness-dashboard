@@ -1,0 +1,43 @@
+.rec-container{
+    background-color: #121212;
+  
+}
+
+.modal-input-field{
+    height: 100%;
+    width: 80%;
+    margin-left: 13rem;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.select-para{
+    font-size: xx-large;
+}
+
+.form-control{
+    margin-left: 1rem;
+    padding: 10px;
+}
+
+.recipe-card-container{
+   
+    background-color: #282d3f;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    justify-content: center;
+    /* align-items: center; */
+    border-radius: 1rem;
+    border: 0.1px solid rgb(248, 239, 239);
+    transition:0.2s;
+
+}
+
+.recipe{
+    margin-right: 3rem;
+    margin-left: 3rem;
+}
+

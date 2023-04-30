@@ -1,0 +1,104 @@
+.Home{
+    background-color: #121212;
+    height: 100vh;
+    display: flex;
+  }
+
+
+.header-container{
+  width: 100vw;
+  height: 4rem;
+  color: white;
+  /* background-color: #3C486B; */
+  display: flex;
+  flex-direction: row;
+  padding:1rem 2rem;
+  align-items: center;
+  position: fixed;
+  margin-bottom: 5rem;
+  top: 0;
+  z-index: 999;
+}
+
+.header-text{
+  font-size: 1.5rem;
+
+}
+
+.home-btn{
+  position: inherit;
+  right: 0;
+  display: flex;
+  flex-direction: row;
+  padding-top: 3px;
+  align-items: center;
+  padding-right: 2rem;
+  color: white;
+  font-weight:  bolder;
+  text-decoration: none;
+  gap: 10px;
+}
+a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+
+a:visited {
+  color: white;
+}
+
+
+@media only screen and (max-width: 600px) {
+ .header-text{
+  font-size: 1rem;
+ }
+}
+.icon{
+  width: 50px;
+  height: auto;
+  border-radius: 50%;
+}
+
+
+.heart-img{
+  position: relative;
+  width: 80px;
+  height: auto;
+  margin: -5px;
+}
+
+.heart-card{
+  width: 350px;
+  height: 250px;
+  background-color: #282d3f;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* gap: 0.5rem; */
+  border-radius: 1rem;
+  /* cursor: pointer; */
+  /* border: 0.1px solid rgb(248, 239, 239); */
+  transition:0.2s;
+  padding: -10px;
+  box-shadow: 2px 2px 8px grey;
+  margin: 15px;
+  cursor: pointer;
+}
+
+.home-body{
+  display: flex;
+  justify-content: center;
+  margin-top: 8rem;
+  align-items: center;
+  gap: 20px;
+  margin-left: 15rem;
+}
+
+.nav-bar{
+  display: flex;
+  margin-left: 2rem;
+  gap: 2rem;
+}
