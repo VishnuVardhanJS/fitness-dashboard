@@ -6,7 +6,7 @@ https://fitness-dashboard-gn6v-aa2t29cxo-vishnuvardhanjs.vercel.app/
 
 ## Description
 
-Accessing FitBit data using FitBit api with Oatuh 2.0 tokens
+Accessing Fit data using Google Fit API with Oatuh 2.0 tokens
 
 
 ## Getting Started
