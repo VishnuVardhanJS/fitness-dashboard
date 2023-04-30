@@ -1,5 +1,7 @@
 # FitBit-API-Dashboard
 
+Updated deployment below....one i've submitted in the form may not work 😀
+
 https://fitness-dashboard-gn6v-aa2t29cxo-vishnuvardhanjs.vercel.app/
 
 ## Description
