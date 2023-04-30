@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, redirect
+from flask import Flask, render_template, request, redirect, Response
 import requests as req
 import json
 from flask_cors import CORS
@@ -13,9 +13,15 @@ date_end = int(time.time() * 1000)
 date_start = date_end - 864000000
 
 
-@app.route('/')
-def index():
-    return {"hello": "User"}
+@app.route("/", defaults={"path": ""})
+@app.route("/<path:path>")
+def catch_all(path):
+    # Everything above this line should look the same for each 
+    # index.py. Modify lines below this to have different logic
+    # for different routes.
+    return Response(
+        "<h1>Flask</h1><p>You visited: /%s</p>" % (path), mimetype="text/html"
+    )
 
 
 @app.route('/login')
