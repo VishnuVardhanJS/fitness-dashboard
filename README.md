@@ -1,4 +1,4 @@
-# FitBit-API-Dashboard
+# Google-Fit-API-Dashboard
 
 Updated deployment below....one i've submitted in the form may not work 😀
 
