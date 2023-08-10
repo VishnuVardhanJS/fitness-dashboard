@@ -23,11 +23,11 @@ function Home() {
         setHeart(~~data.heart)
         setSleep(data.sleep)
         console.log(Steps)
-        console.log(Heart)
+        // console.log(Heart)
         console.log(Sleep)
     }
     api()
-    },2000)
+    },4000)
     
 
 

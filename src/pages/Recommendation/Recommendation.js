@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import './Recommendation.css'
 import axios from 'axios';
 
-const req = axios.get('http://127.0.0.1:5000/recipie')
+//const req = axios.get('http://127.0.0.1:5000/recipie')
 
 function Recommendation() {
   const [Recipe, setRecipe] = useState()

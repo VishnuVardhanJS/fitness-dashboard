@@ -20,6 +20,7 @@ function Login() {
 
     async function submitClick() {
         signInWithPopup(auth, provider).then((data) => {
+            // console.log(data)
             setEmail(data.user.email)
             setName(data.user.displayName)
             setIcon(data.user.photoURL)
